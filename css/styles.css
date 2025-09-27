@@ -94,8 +94,7 @@ body {
 .adress-bar-link {
   display: flex;
   align-items: center;
-  column-gap: 40px;
-  margin-left: auto;
+  gap: 40px;
 }
 
 .header_nav_logo {
@@ -264,7 +263,6 @@ address {
 }
 
 .our-team-name {
-  margin-bottom: 8px;
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -272,6 +270,7 @@ address {
   line-height: 1.2;
   margin: 0;
   text-align: center;
+  margin-bottom: 8px;
 }
 .our-team-positions {
   font-size: 16px;
@@ -329,13 +328,11 @@ address {
 
 /* #region FOOTER */
 .footer-section {
+  padding: 100px 0;
   background-color: #2e2f42;
   color: #f4f4fd;
 }
 
-.footer-container {
-  padding: 100px 0;
-}
 .footer-logo-link {
   display: inline-block;
   margin-bottom: 16px;
